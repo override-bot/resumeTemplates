@@ -1,0 +1,50 @@
+body {
+    background-color: cornsilk;
+}
+
+.green {
+    color: rgb(19, 179, 139);
+}
+
+.red {
+    color: rgb(243, 65, 11);
+}
+
+.main-div {
+    display: flex;
+    flex: 1 auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.right {
+    flex: 1 1 auto;
+    margin: 15px;
+}
+
+.left {
+    flex: 2 2 auto;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-circle {
+    height: 150px;
+    width: 190px;
+    border-radius: 50%;
+    border-top: 9px solid rgb(19, 179, 139);
+    border-bottom: 9px solid rgb(243, 65, 11);
+    background-image: url(IMG_6309.JPG);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.summary {
+    background-color: rgba(19, 179, 139, 0.473);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
